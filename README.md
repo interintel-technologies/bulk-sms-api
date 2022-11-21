@@ -14,12 +14,12 @@
 
 <img src="images/refresh_token.png" style="width:500;height:800;display:block; margin-left:auto; margin-right:auto;" alt="Refresh Token">
 
-#### 3.0 You'll then need add the access_token to the headers (Authorization: Bearer {access_token}).
+#### 3.0 You'll then need to add the access_token to the headers (Authorization: Bearer {access_token}) and the sent the SMS request.
  <img src="images/configure_token.png" style="width:500;height:800;display:block; margin-left:auto; margin-right:auto;" alt="Add access token to Authorization Header">
  
  <i>Add the access token to Authorization Header </i>
  
- #### 4.0 And then formulate the SMS request as below.
+ ##### 3.1 You can formulate the SMS request as below.
  
- <img src="images/send_sms.png style="width:500;height:800;display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
+ <img src="images/send_sms.png" style="width:500;height:800;display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
 
