@@ -10,7 +10,7 @@
 
 <img src="images/get_access_token.png" alt="Get Access Token"  style="width:500;height:800;display:block; margin-left:auto; margin-right:auto;">
 
-##### 2.1 You can use the same endpoint to refresh the token, and receive a new token whenever the access token expires.
+##### You can use the same endpoint to refresh the token, and receive a new token whenever the access token expires.
 
 <img src="images/refresh_token.png" style="width:500;height:800;display:block; margin-left:auto; margin-right:auto;" alt="Refresh Token">
 
@@ -19,7 +19,7 @@
  
  <i>Add the access token to Authorization Header </i>
  
- ##### 3.1 You can formulate the SMS request as below.
+ ##### You can formulate the SMS request as below.
  
  <img src="images/send_bulk_sms.png" style="width:500;height:800;display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
 
