@@ -15,7 +15,7 @@ The details are: client_id, username and grant_type. You'll also need to use you
 <img src="images/refresh_token.png">Refresh Token<img>
 
 #### 3.0 You'll then need add the access_token to the headers (Authorization: Bearer {access_token}) and send an SMS request as shown.
- <img src="configure_token.png"> Add access token to Authorization Header<img>
+ <img src="images/configure_token.png"> Add access token to Authorization Header<img>
  
- <img src="send_sms.png"> Send SMS using SEND SMS endpoint <img>
+ <img src="images/send_sms.png"> Send SMS using SEND SMS endpoint <img>
 
