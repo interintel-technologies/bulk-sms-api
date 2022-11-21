@@ -2,13 +2,13 @@
 
 #### 1.0 Get Oauth2 details from your portal under Developer->Settings section 
 
-<img src="images/nenasasa_portal.png" alt="Nenasasa Portal" style="width:500;height:1000;">
+<img src="images/nenasasa_portal.png" alt="Nenasasa Portal" style="width:500;height:900;display:block; margin-left:auto; margin-right:auto;">
 
-The details are: client_id, username and grant_type. You'll also need to use your existing password.
+_The details are: client_id, username and grant_type. You'll also need to use your existing password.
 
-#### 2.0 Make a request to the endpoint (https://nenasasa.com/api/v1/o/token/) to get an access_token and a refresh_token, which last for 3600 seconds (10 hours) 
+#### 2.0 Make a request to the endpoint (https://nenasasa.com/api/v1/o/token/) to get an access_token and a refresh_token.They last for 3600 seconds (10 hours) 
 
-<img src="images/get_access_token.png" alt="Get Access Token" width="500" height="600">
+<img src="images/get_access_token.png" alt="Get Access Token"  style="width:500;height:900;display:block; margin-left:auto; margin-right:auto;">
 
 ##### 2.1 You can use the same endpoint to refresh the token, and receive a new token whenever the access token expires.
 
