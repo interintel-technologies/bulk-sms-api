@@ -6,7 +6,7 @@
 
 <i>The details are: client_id, username and grant_type. You'll also need to use your existing password.</i>
 
-#### 2.0 Make a request to the endpoint (https://nenasasa.com/api/v1/o/token/) to get an access_token and a refresh_token.They last for 3600 seconds (10 hours) 
+#### 2.0 Make a request to the endpoint (https://nenasasa.com/api/v1/o/token/) to get an access_token and a refresh_token. They last for 3600 seconds (10 hours). 
 
 <img src="images/get_access_token.png" alt="Get Access Token"  style="width:500;height:800;display:block; margin-left:auto; margin-right:auto;">
 
