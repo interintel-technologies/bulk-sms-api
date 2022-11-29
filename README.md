@@ -1,4 +1,4 @@
-## A Guide on How to Integrate with the BULK SMS API using Oauth2.0 ##
+## A Guide on how to Consume the BULK SMS API using Oauth2.0 ##
 
 ### Table of Contents
 1.0 Get Login Details.  
