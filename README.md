@@ -9,7 +9,7 @@
 
 Get the Oauth2 login details from the Nenasasa portal under Developer->Settings section 
 
-<p align="center" width="100%">
+<p align="center">
 <img src="images/nenasasa_portal.png" width="700px" height="400px" alt="Nenasasa Portal" style="display:block;margin-left:auto;margin-right:auto;">
 </p>
 
@@ -21,9 +21,9 @@ To get an access_token and a refresh_token, make a request to the Nenasasa endpo
 <img src="images/get_access_token.png"  width="700px" height="550px" alt="Get Access Token"  style="display:block; margin-left:auto; margin-right:auto;">
 </p>
 
-You can use the same endpoint to refresh the token, and receive a new token whenever the access token expires.
+You can use the same endpoint to refresh the token and receive a new token whenever the access token expires.
 <p align="center">
-<img src="images/refresh_token.png" width="700px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Refresh Token">
+<img src="images/refresh_token.png" width="700px" height="550px" style="display:block; margin-left:auto; margin-right:auto;" alt="Refresh Token">
 </p>
 #### <b> 3.0 Formulate the Request </b>
 You'll then need to add the access_token to the Authorization header (Authorization: Bearer {access_token}) to sent the SMS request.
