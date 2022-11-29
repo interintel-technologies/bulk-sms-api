@@ -16,7 +16,7 @@ Get the Oauth2 login details from the Nenasasa portal under Developer->Settings 
 #### <b> 2.0 Get an Access Token and a Refresh Token </b>
 To get an access_token and a refresh_token, make a request to the Nenasasa endpoint (https://nenasasa.com/api/v1/o/token/). They last for 3600 seconds (10 hours). 
 
-<img src="images/get_access_token.png"  width="600px" height="400px" alt="Get Access Token"  style="display:block; margin-left:auto; margin-right:auto;">
+<img src="images/get_access_token.png"  width="600px" height="500px" alt="Get Access Token"  style="display:block; margin-left:auto; margin-right:auto;">
 
 You can use the same endpoint to refresh the token, and receive a new token whenever the access token expires.
 
