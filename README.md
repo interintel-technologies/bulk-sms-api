@@ -20,15 +20,15 @@ To get an access_token and a refresh_token, make a request to the Nenasasa endpo
 
 You can use the same endpoint to refresh the token, and receive a new token whenever the access token expires.
 
-<img src="images/refresh_token.png" width="500px" height="800px" style="display:block; margin-left:auto; margin-right:auto;" alt="Refresh Token">
+<img src="images/refresh_token.png" width="600px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Refresh Token">
 
 #### <b> 3.0 Formulate the Request </b>
 You'll then need to add the access_token to the Authorization header (Authorization: Bearer {access_token}) to sent the SMS request.
- <img src="images/configure_token.png" width="500px" height="800px" style="display:block; margin-left:auto; margin-right:auto;" alt="Add access token to Authorization Header">
+ <img src="images/configure_token.png" width="600px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Add access token to Authorization Header">
  
  <i>Add the access token to Authorization Header </i>
  
  You can formulate the SMS request as below.
  
- <img src="images/send_bulk_sms.png" width="500px" height="800px" style="display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
+ <img src="images/send_bulk_sms.png" width="600px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
 
