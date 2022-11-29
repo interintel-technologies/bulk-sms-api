@@ -33,7 +33,7 @@ You'll then need to add the access token to the Authorization header (Authorizat
 </p> 
  <i>Add the access token to Authorization Header </i>
  
- And can then formulate the request body as below.
+ And then formulate the request body as below.
  <p align="center">
  <img src="images/send_bulk_sms.png" width="700px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
  <p>
