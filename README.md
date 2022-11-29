@@ -9,7 +9,7 @@
 
 Get Oauth2 login details from your Nenasasa portal under Developer->Settings section 
 
-<img src="images/nenasasa_portal.png" width="800px" height="700px" alt="Nenasasa Portal" style="display:block; margin-left:auto; margin-right:auto;">
+<img src="images/nenasasa_portal.png" width="800px" height="600px" alt="Nenasasa Portal" style="display:block; margin-left:auto; margin-right:auto;">
 
 <i>The details are: client_id, username and grant_type. You'll also need to use your existing password.</i>
 
