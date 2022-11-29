@@ -9,26 +9,26 @@
 
 Get the Oauth2 login details from the Nenasasa portal under Developer->Settings section 
 
-<img src="images/nenasasa_portal.png" width="800px" height="400px" alt="Nenasasa Portal" style="display:block;margin-left:auto;margin-right:auto;">
+<img src="images/nenasasa_portal.png" width="700px" height="400px" alt="Nenasasa Portal" style="display:block;margin-left:auto;margin-right:auto;">
 
 <i>The details are: client_id, username and grant_type. You'll also need to use your existing password.</i>
 
 #### <b> 2.0 Get an Access Token and a Refresh Token </b>
 To get an access_token and a refresh_token, make a request to the Nenasasa endpoint (https://nenasasa.com/api/v1/o/token/). They last for 3600 seconds (10 hours). 
 
-<img src="images/get_access_token.png"  width="600px" height="500px" alt="Get Access Token"  style="display:block; margin-left:auto; margin-right:auto;">
+<img src="images/get_access_token.png"  width="700px" height="500px" alt="Get Access Token"  style="display:block; margin-left:auto; margin-right:auto;">
 
 You can use the same endpoint to refresh the token, and receive a new token whenever the access token expires.
 
-<img src="images/refresh_token.png" width="600px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Refresh Token">
+<img src="images/refresh_token.png" width="700px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Refresh Token">
 
 #### <b> 3.0 Formulate the Request </b>
 You'll then need to add the access_token to the Authorization header (Authorization: Bearer {access_token}) to sent the SMS request.
- <img src="images/configure_token.png" width="600px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Add access token to Authorization Header">
+ <img src="images/configure_token.png" width="700px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Add access token to Authorization Header">
  
  <i>Add the access token to Authorization Header </i>
  
  You can formulate the SMS request as below.
  
- <img src="images/send_bulk_sms.png" width="600px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
+ <img src="images/send_bulk_sms.png" width="700px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
 
