@@ -27,7 +27,7 @@ You can use the same endpoint to refresh the token and receive a new token whene
 </p>
 
 #### <b> 3.0 Formulate the Request </b>
-You'll then need to add the access token to the Authorization header (Authorization: Bearer {access_token}) to sent the SMS request.
+You'll then need to add the access token to the Authorization header (Authorization: Bearer {access_token}) when making the SMS request.
 <p align="center">
  <img src="images/configure_token.png" width="700px" height="550px" style="display:block; margin-left:auto; margin-right:auto;" alt="Add access token to Authorization Header">
 </p> 
