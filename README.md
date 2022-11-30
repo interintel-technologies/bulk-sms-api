@@ -13,7 +13,7 @@ Get the Oauth2 login details from the Nenasasa portal under Developer->Settings 
 <img src="images/nenasasa_portal.png" width="700px" height="400px" alt="Nenasasa Portal" style="display:block;margin-left:auto;margin-right:auto;">
 
 </p>
-<center><i>The details are: client_id, username and Authorization_grant_type. You'll also need to use your existing password.</i></center>
+<div class="center"><i>The details are: client_id, username and Authorization_grant_type. You'll also need to use your existing password.</i></div>
 
 
 #### <b> 2.0 Get an Access Token and a Refresh Token </b>
@@ -33,7 +33,7 @@ You'll then need to add the access token to the Authorization header (Authorizat
  <img src="images/configure_token.png" width="700px" height="550px" style="display:block; margin-left:auto; margin-right:auto;" alt="Add access token to Authorization Header">
 </p>
  <div align="center"> <i>Add the access token to Authorization Header </i></div>
-  
+ <br></br>  
  
  And then formulate the request body as below.
  <p align="center">
