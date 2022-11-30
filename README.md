@@ -32,7 +32,7 @@ You'll then need to add the access token to the Authorization header (Authorizat
 <p align="center">
  <img src="images/configure_token.png" width="700px" height="550px" style="display:block; margin-left:auto; margin-right:auto;" alt="Add access token to Authorization Header">
 </p>
- <center><i>Add the access token to Authorization Header </i></center>
+ <div align="center"> <i>Add the access token to Authorization Header </i></div>
   
  
  And then formulate the request body as below.
