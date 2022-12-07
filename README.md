@@ -8,7 +8,7 @@
    3.1 [Make the Request](#31-make-the-request)
 
 
-You can click on the images to get full page view if some details are not clear.
+You can click on the images to get a full page view if some details are not clear.
 
 #### 1. Get the Login Details #####
 
