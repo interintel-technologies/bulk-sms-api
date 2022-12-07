@@ -1,11 +1,11 @@
 ## A Guide on how to Consume the BULK SMS API using Oauth2.0 ##
 
 ### Table of Contents
-1.[Get the Login Details.](#get-the-login-details)  
+1. [Get the Login Details.](#get-the-login-details)  
 2. [Get an Access Token and a Refresh Token.](#get-an-access-token-and-a-refresh-token)  
- - [Get a Refresh Token](#get-a-refresh-token) 
+   [Get a Refresh Token](#get-a-refresh-token) 
 3. [Formulate the Request.](#formulate-the-request)  
- - [Make the Request](#make-the-request)
+   [Make the Request](#make-the-request)
 
 
 You can click on the images to get full page view if some details are not clear.
