@@ -2,10 +2,12 @@
 
 ### Table of Contents
 [Get the Login Details.](#get-the-login-details)  
+
 [Get an Access Token and a Refresh Token.](#get-an-access-token-and-a-refresh-token)  
-   [Get a Refresh Token](#get-a-refresh-token)
-[Formulate the Request.](#formulate-the-request)
-   [Make the Request](#make-the-request)
+      [Get a Refresh Token](#get-a-refresh-token)  
+      
+[Formulate the Request.](#formulate-the-request)  
+      [Make the Request](#make-the-request)
 
 
 You can click on the images to get full page view if some details are not clear.
