@@ -43,7 +43,7 @@ You'll then need to add the access token to the Authorization header (Authorizat
  <br></br>  
  
  ###### 3.1 Make the Request #####
- And then formulate the request body as below. The endpoint changes to (https://nenasasa.com/api/v1/SEND%20SMS).
+ And then formulate the request body as below. The endpoint changes to https://nenasasa.com/api/v1/SEND%20SMS.
  <p align="center">
  <img src="images/send_bulk_sms.png" width="700px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
  <p>
