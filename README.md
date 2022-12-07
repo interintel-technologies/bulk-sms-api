@@ -8,9 +8,8 @@
 
 You can click on the images to get full page view if some details are not clear.
 
-<a name="1.0-get-the-login-details"
- #### 1.0 Get the Login Details #####
-</a>
+<h2 id="#1.0-get-the-login-details"> 1.0 Get the Login Details #####
+
 
 Get the Oauth2 login details from the Nenasasa portal under Developer->Settings section. 
 
@@ -40,7 +39,7 @@ You'll then need to add the access token to the Authorization header (Authorizat
  <div align="center"> <i>Add the access token to Authorization Header </i></div>
  <br></br>  
  
- And then formulate the request body as below.The request is made to diffrent endpoint (https://nenasasa.com/api/v1/SEND%20SMS).
+ And then formulate the request body as below. The request is made to a diffrent endpoint (https://nenasasa.com/api/v1/SEND%20SMS).
  <p align="center">
  <img src="images/send_bulk_sms.png" width="700px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
  <p>
