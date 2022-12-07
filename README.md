@@ -8,8 +8,9 @@
 
 You can click on the images to get full page view if some details are not clear.
 
-
- #### 1.0 Get the Login Details ##### 
+<a name="1.0-get-the-login-details"
+ #### 1.0 Get the Login Details #####
+</a>
 
 Get the Oauth2 login details from the Nenasasa portal under Developer->Settings section. 
 
