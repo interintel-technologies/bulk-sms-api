@@ -1,11 +1,15 @@
 ## A Guide on how to Consume the BULK SMS API using Oauth2.0 ##
 
 ### Table of Contents
-1.0 Get the Login Details.  
-2.0 Get an Access Token and a Refresh Token.  
-3.0 Formulate the Request.
+1.0 [Get the Login Details.](#get-the-login-details)  
+2.0 [Get an Access Token and a Refresh Token.](#get-an-access-token-and-a-refresh-token)
+3.0 [Formulate the Request.](#formulate-the-request)
 
-#### <b> 1.0 Get Login Details </b>
+
+You can click on the images to get full page view if some details are not clear.
+
+
+#### <b> 1.0 Get the Login Details </b>
 
 Get the Oauth2 login details from the Nenasasa portal under Developer->Settings section. 
 
@@ -35,7 +39,7 @@ You'll then need to add the access token to the Authorization header (Authorizat
  <div align="center"> <i>Add the access token to Authorization Header </i></div>
  <br></br>  
  
- And then formulate the request body as below.
+ And then formulate the request body as below.The request is made to diffrent endpoint (https://nenasasa.com/api/v1/SEND%20SMS).
  <p align="center">
  <img src="images/send_bulk_sms.png" width="700px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
  <p>
