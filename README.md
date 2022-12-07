@@ -2,7 +2,7 @@
 
 ### Table of Contents
 1.0 [Get the Login Details.](#get-the-login-details)  
-2.0 [Get an Access Token and a Refresh Token.](#get-an-access-token-and-a-refresh-token)
+2.0 [Get an Access Token and a Refresh Token.](#get-an-access-token-and-a-refresh-token) 
 3.0 [Formulate the Request.](#formulate-the-request)
 
 
