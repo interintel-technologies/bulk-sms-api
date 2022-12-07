@@ -3,9 +3,9 @@
 ### Table of Contents
 1. [Get the Login Details.](#1-get-the-login-details)  
 2. [Get an Access Token and a Refresh Token.](#2-get-an-access-token-and-a-refresh-token)  
-   2.0 [Get a Refresh Token](#21-get-a-refresh-token) 
+   2.1 [Get a Refresh Token](#21-get-a-refresh-token) 
 3. [Formulate the Request.](#3-formulate-the-request)  
-   3.0 [Make the Request](#31-make-the-request)
+   3.1 [Make the Request](#31-make-the-request)
 
 
 You can click on the images to get full page view if some details are not clear.
