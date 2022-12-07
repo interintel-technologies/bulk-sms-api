@@ -1,11 +1,11 @@
 ## A Guide on how to Consume the BULK SMS API using Oauth2.0 ##
 
 ### Table of Contents
-1. [Get the Login Details.](#1.-get-the-login-details)  
+1. [Get the Login Details.](#1-get-the-login-details)  
 2. [Get an Access Token and a Refresh Token.](#2-get-an-access-token-and-a-refresh-token)  
-   [Get a Refresh Token](#get-a-refresh-token) 
+   2.0 [Get a Refresh Token](#21-get-a-refresh-token) 
 3. [Formulate the Request.](#3-formulate-the-request)  
-   [Make the Request](#make-the-request)
+   3.0 [Make the Request](#31-make-the-request)
 
 
 You can click on the images to get full page view if some details are not clear.
@@ -28,7 +28,7 @@ To get an access_token and a refresh_token, make a request to the Nenasasa endpo
 <img src="images/get_access_token.png"  width="700px" height="550px" alt="Get Access Token"  style="display:block; margin-left:auto; margin-right:auto;">
 </p>
 
-##### Get a Refresh Token #####
+##### 2.1 Get a Refresh Token #####
 You can use the same endpoint to refresh the token and receive a new token whenever the access token expires.
 <p align="center">
 <img src="images/refresh_token.png" width="700px" height="550px" style="display:block; margin-left:auto; margin-right:auto;" alt="Refresh Token">
@@ -42,7 +42,7 @@ You'll then need to add the access token to the Authorization header (Authorizat
  <div align="center"> <i>Add the access token to Authorization Header </i></div>
  <br></br>  
  
- ###### Make the Request #####
+ ###### 3.1 Make the Request #####
  And then formulate the request body as below. The endpoint changes to (https://nenasasa.com/api/v1/SEND%20SMS).
  <p align="center">
  <img src="images/send_bulk_sms.png" width="700px" height="500px" style="display:block; margin-left:auto; margin-right:auto;" alt="Send SMS using SEND SMS endpoint">
